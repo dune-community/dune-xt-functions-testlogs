@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="12" failures="0" disabled="0" errors="0" timestamp="2016-12-12T14:13:35" time="1.506" name="AllTests">
-  <testsuite name="FlatTopFunctionTest/0" tests="4" failures="0" disabled="0" errors="0" time="0.002">
+<testsuites tests="12" failures="0" disabled="0" errors="0" timestamp="2016-12-12T16:39:54" time="1.596" name="AllTests">
+  <testsuite name="FlatTopFunctionTest/0" tests="4" failures="0" disabled="0" errors="0" time="0.003">
     <testcase name="static_interface_check" type_param="Int&lt;1&gt;" status="run" time="0" classname="FlatTopFunctionTest/0" />
-    <testcase name="static_create_check" type_param="Int&lt;1&gt;" status="run" time="0" classname="FlatTopFunctionTest/0" />
-    <testcase name="dynamic_interface_check" type_param="Int&lt;1&gt;" status="run" time="0.001" classname="FlatTopFunctionTest/0" />
-    <testcase name="evaluate_check" type_param="Int&lt;1&gt;" status="run" time="0.001" classname="FlatTopFunctionTest/0" />
+    <testcase name="static_create_check" type_param="Int&lt;1&gt;" status="run" time="0.001" classname="FlatTopFunctionTest/0" />
+    <testcase name="dynamic_interface_check" type_param="Int&lt;1&gt;" status="run" time="0" classname="FlatTopFunctionTest/0" />
+    <testcase name="evaluate_check" type_param="Int&lt;1&gt;" status="run" time="0.002" classname="FlatTopFunctionTest/0" />
   </testsuite>
   <testsuite name="FlatTopFunctionTest/1" tests="4" failures="0" disabled="0" errors="0" time="0.019">
     <testcase name="static_interface_check" type_param="Int&lt;2&gt;" status="run" time="0" classname="FlatTopFunctionTest/1" />
-    <testcase name="static_create_check" type_param="Int&lt;2&gt;" status="run" time="0.001" classname="FlatTopFunctionTest/1" />
+    <testcase name="static_create_check" type_param="Int&lt;2&gt;" status="run" time="0" classname="FlatTopFunctionTest/1" />
     <testcase name="dynamic_interface_check" type_param="Int&lt;2&gt;" status="run" time="0.001" classname="FlatTopFunctionTest/1" />
-    <testcase name="evaluate_check" type_param="Int&lt;2&gt;" status="run" time="0.017" classname="FlatTopFunctionTest/1" />
+    <testcase name="evaluate_check" type_param="Int&lt;2&gt;" status="run" time="0.018" classname="FlatTopFunctionTest/1" />
   </testsuite>
-  <testsuite name="FlatTopFunctionTest/2" tests="4" failures="0" disabled="0" errors="0" time="1.485">
+  <testsuite name="FlatTopFunctionTest/2" tests="4" failures="0" disabled="0" errors="0" time="1.574">
     <testcase name="static_interface_check" type_param="Int&lt;3&gt;" status="run" time="0" classname="FlatTopFunctionTest/2" />
     <testcase name="static_create_check" type_param="Int&lt;3&gt;" status="run" time="0" classname="FlatTopFunctionTest/2" />
     <testcase name="dynamic_interface_check" type_param="Int&lt;3&gt;" status="run" time="0.006" classname="FlatTopFunctionTest/2" />
-    <testcase name="evaluate_check" type_param="Int&lt;3&gt;" status="run" time="1.479" classname="FlatTopFunctionTest/2" />
+    <testcase name="evaluate_check" type_param="Int&lt;3&gt;" status="run" time="1.568" classname="FlatTopFunctionTest/2" />
   </testsuite>
 </testsuites>
