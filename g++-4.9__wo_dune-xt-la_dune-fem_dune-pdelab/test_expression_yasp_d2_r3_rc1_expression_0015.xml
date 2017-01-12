@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-01-12T15:41:22" time="0.001" name="AllTests">
-  <testsuite name="ExpressionFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.001">
-    <testcase name="provides_required_methods" status="run" time="0.001" classname="ExpressionFunctionTest" />
+<testsuites tests="1" failures="1" disabled="0" errors="0" timestamp="2017-01-12T19:23:30" time="0.001" name="AllTests">
+  <testsuite name="ExpressionFunctionTest" tests="1" failures="1" disabled="0" errors="0" time="0.001">
+    <testcase name="provides_required_methods" status="run" time="0" classname="ExpressionFunctionTest">
+      <failure message="unknown file&#x0A;C++ exception with description &quot;[31mExceptions::external_error[0m&#x0A;[33m[[0m[31mget_valid_value[0m[33m|[0m/home/travis/src/dune-xt-common/dune/xt/common/configuration.hh[33m:[0m[31m364[0m[33m][0m&#x0A;[33m=&gt;[0m Error in the stl while converting the string &apos;[x[0] sin(x[0]) exp(x[0]); x[0] sin(x[0]) exp(x[0]); x[0] sin(x[0]) exp(x[0])]&apos; to type &apos;Dune::FieldVector&lt;std::string, 3&gt;&apos;:&#x0A;[31mExceptions::conversion_error[0m&#x0A;[33m[[0m[31mtrim_copy_safely[0m[33m|[0m/home/travis/src/dune-xt-common/dune/xt/common/string_internal.hh[33m:[0m[31m77[0m[33m][0m&#x0A;[33m=&gt;[0m There was an error while parsing the string below. The value contained a &apos;;&apos;: &apos;exp(x[0]);&apos;!&#x0A;This usually happens if you try to get a matrix expression with a vector type or if you are missing the white space after the &apos;;&apos; in a matrix expression!&#x0A;&#x0A;on accessing key expression with default [  ]&quot; thrown in the test body." type=""><![CDATA[unknown file
+C++ exception with description "[31mExceptions::external_error[0m
+[33m[[0m[31mget_valid_value[0m[33m|[0m/home/travis/src/dune-xt-common/dune/xt/common/configuration.hh[33m:[0m[31m364[0m[33m][0m
+[33m=>[0m Error in the stl while converting the string '[x[0] sin(x[0]) exp(x[0]); x[0] sin(x[0]) exp(x[0]); x[0] sin(x[0]) exp(x[0])]' to type 'Dune::FieldVector<std::string, 3>':
+[31mExceptions::conversion_error[0m
+[33m[[0m[31mtrim_copy_safely[0m[33m|[0m/home/travis/src/dune-xt-common/dune/xt/common/string_internal.hh[33m:[0m[31m77[0m[33m][0m
+[33m=>[0m There was an error while parsing the string below. The value contained a ';': 'exp(x[0]);'!
+This usually happens if you try to get a matrix expression with a vector type or if you are missing the white space after the ';' in a matrix expression!
+
+on accessing key expression with default [  ]" thrown in the test body.]]></failure>
+    </testcase>
   </testsuite>
 </testsuites>
