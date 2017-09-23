@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-09-23T18:03:00" time="0.373" name="AllTests">
-  <testsuite name="GlobalLambdaFluxFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.372">
-    <testcase name="creation_and_evalution" status="run" time="0.372" classname="GlobalLambdaFluxFunctionTest" />
+<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-09-23T18:28:31" time="0.411" name="AllTests">
+  <testsuite name="GlobalLambdaFluxFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.411">
+    <testcase name="creation_and_evalution" status="run" time="0.411" classname="GlobalLambdaFluxFunctionTest" />
   </testsuite>
 </testsuites>
