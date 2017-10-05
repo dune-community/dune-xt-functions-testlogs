@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-10-05T10:57:35" time="0.42" name="AllTests">
+  <testsuite name="LocalLambdaFluxFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.419">
+    <testcase name="creation_and_evalution" status="run" time="0.419" classname="LocalLambdaFluxFunctionTest" />
+  </testsuite>
+</testsuites>
