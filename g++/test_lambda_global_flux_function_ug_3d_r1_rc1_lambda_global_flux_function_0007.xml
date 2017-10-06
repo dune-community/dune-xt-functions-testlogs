@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-10-05T11:03:29" time="0.409" name="AllTests">
-  <testsuite name="GlobalLambdaFluxFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.409">
-    <testcase name="creation_and_evalution" status="run" time="0.409" classname="GlobalLambdaFluxFunctionTest" />
-  </testsuite>
-</testsuites>
