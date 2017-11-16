@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites tests="1" failures="0" disabled="0" errors="0" timestamp="2017-11-16T18:23:44" time="0.005" name="AllTests">
-  <testsuite name="IndicatorFunctionTest" tests="1" failures="0" disabled="0" errors="0" time="0.004">
-    <testcase name="provides_required_methods" status="run" time="0.003" classname="IndicatorFunctionTest" />
-  </testsuite>
-</testsuites>
