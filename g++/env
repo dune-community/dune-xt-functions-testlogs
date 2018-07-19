@@ -11,13 +11,14 @@ CXX=g++
 DCTL_ARGS=--builddir=/root/dune_build/ 
 DEBIAN_FRONTEND=teletype
 DUNE_BUILD_DIR=/root/dune_build/
+DXT_DOCKER=1
 DXT_ENVIRONMENT=debian-full
 DXT_LIBCLANG_SO=/usr/lib/llvm-7/lib/libclang.so.1
 F77=gfortran
 GCC_VERSION=8
 GCOV=/usr/bin/gcov
 HOME=/root
-HOSTNAME=c37e0a43ee58
+HOSTNAME=df49865d9a98
 INSTALL_DIR=/root/dune
 INSTALL_PREFIX=/root/src/environments/debian-full/local
 LD_LIBRARY_PATH=/root/src/environments/debian-full/local/lib64:/root/src/environments/debian-full/local/lib:/root/src/local/lib64:/root/src/local/lib:
